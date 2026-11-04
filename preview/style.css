@@ -628,6 +628,15 @@ h3 {
   box-shadow: 0 0 0 4px rgba(105, 193, 157, 0.12);
 }
 
+.status.remote {
+  color: #f2c69e;
+}
+
+.status.remote i {
+  background: var(--coral);
+  box-shadow: 0 0 0 4px rgba(233, 169, 111, 0.14);
+}
+
 .speaker-copy h3 {
   margin: 2rem 0 0.15rem;
   color: var(--white);
@@ -663,6 +672,10 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
+}
+
+.track-grid.single-track {
+  grid-template-columns: 1fr;
 }
 
 .track-card {
