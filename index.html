@@ -3,69 +3,351 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Workforce at IEEE BigData 2026 explores how AI can augment human work and create positive-sum outcomes for workers, organizations, and society.">
   <meta name="theme-color" content="#0b1f33">
-  <title>AI4Workforce 2026 | Coming Soon</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      margin: 0;
-      padding: 24px;
-      color: #0b1f33;
-      background: #fbfaf7;
-      font-family: Arial, sans-serif;
-    }
-    main {
-      width: min(760px, 100%);
-      padding: clamp(36px, 8vw, 76px);
-      background: #fff;
-      border-top: 8px solid #286a7d;
-      box-shadow: 0 24px 70px rgba(11, 31, 51, 0.12);
-    }
-    .label {
-      margin-bottom: 32px;
-      color: #286a7d;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
-    h1 {
-      max-width: 640px;
-      margin: 0 0 20px;
-      font-family: Georgia, serif;
-      font-size: clamp(48px, 10vw, 84px);
-      line-height: .98;
-      letter-spacing: -.045em;
-    }
-    .subtitle {
-      color: #286a7d;
-      font-family: Georgia, serif;
-      font-size: clamp(22px, 4vw, 32px);
-      font-style: italic;
-    }
-    .details {
-      margin-top: 40px;
-      padding-top: 24px;
-      color: #5b6975;
-      border-top: 1px solid #d7dfe1;
-      line-height: 1.7;
-    }
-    strong { color: #0b1f33; }
-  </style>
+  <title>AI4Workforce 2026 | IEEE BigData Workshop</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <main>
-    <p class="label">IEEE BigData 2026 Workshop</p>
-    <h1>AI in the Workforce</h1>
-    <p class="subtitle">Human Labor vs. AI Automation: Zero-Sum or Positive-Sum?</p>
-    <div class="details">
-      <strong>Full website coming soon.</strong><br>
-      IEEE BigData 2026 · December 14–17, 2026<br>
-      Sheraton Phoenix Downtown · Phoenix, Arizona, USA
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="AI4Workforce home">
+        <span class="wordmark-mark" aria-hidden="true">A4W</span>
+        <span>AI4Workforce <strong>2026</strong></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#cfp">Call for Papers</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a class="nav-contact" href="https://wi-lab.com/cyberchair/2026/bigdata26/scripts/submit.php?subarea=S45&amp;undisplay_detail=1&amp;wh=%2Fcyberchair%2F2026%2Fbigdata26%2Fscripts%2Fws_submit.php" target="_blank" rel="noopener noreferrer">Submit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid shell">
+        <div class="hero-copy">
+          <p class="kicker"><span>December 14, 2026</span> IEEE BigData Workshop</p>
+          <h1>AI in the Workforce</h1>
+          <p class="hero-question">Human Labor vs. AI Automation:<br><em>Zero-Sum or Positive-Sum?</em></p>
+          <p class="hero-intro">A multidisciplinary forum on designing AI that expands human capability, dignity, and opportunity rather than treating automation and labor as inevitable competitors.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wi-lab.com/cyberchair/2026/bigdata26/scripts/submit.php?subarea=S45&amp;undisplay_detail=1&amp;wh=%2Fcyberchair%2F2026%2Fbigdata26%2Fscripts%2Fws_submit.php" target="_blank" rel="noopener noreferrer">Submit a paper</a>
+            <a class="button button-ghost" href="#program">View the program</a>
+          </div>
+        </div>
+
+        <aside class="event-card" aria-label="Workshop details">
+          <div class="event-card-top">
+            <span class="event-number">2026</span>
+            <span class="event-label">Phoenix<br>Arizona</span>
+          </div>
+          <dl class="event-details">
+            <div>
+              <dt>Workshop date</dt>
+              <dd>December 14, morning</dd>
+            </div>
+            <div>
+              <dt>Conference</dt>
+              <dd>December 14–17, 2026</dd>
+            </div>
+            <div>
+              <dt>Venue</dt>
+              <dd>Sheraton Phoenix Downtown</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>Half-day onsite; one remote talk</dd>
+            </div>
+            <div>
+              <dt>Paper deadline</dt>
+              <dd>November 15 · 11:59 p.m. AoE</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+      <div class="hero-rule" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="shell split-intro">
+        <div>
+          <p class="eyebrow">About the workshop</p>
+          <h2>Shaping a future of work where people and AI advance together.</h2>
+        </div>
+        <div class="prose lead-prose">
+          <p>AI4Workforce brings together machine learning, economics, public policy, human-computer interaction, and industry to examine the feedback loops between AI development and labor markets.</p>
+          <p>We move beyond a simple replacement narrative. The workshop asks how jobs can be decomposed into tasks, where augmentation creates value, which capabilities remain distinctly human, and what technical and governance choices can steer AI toward equitable, positive-sum outcomes.</p>
+        </div>
+      </div>
+
+      <div class="shell topic-grid" aria-label="Workshop themes">
+        <article class="topic-card">
+          <span>01</span>
+          <h3>Foundational Models &amp; Work</h3>
+          <p>Modeling real-world jobs, skills, and emerging human–AI workflows.</p>
+        </article>
+        <article class="topic-card">
+          <span>02</span>
+          <h3>Augmentation vs. Replacement</h3>
+          <p>Identifying tasks best suited to automation, delegation, or collaboration.</p>
+        </article>
+        <article class="topic-card">
+          <span>03</span>
+          <h3>AI in Labor Markets</h3>
+          <p>Hiring, evaluation, algorithmic management, fairness, wages, and mobility.</p>
+        </article>
+        <article class="topic-card">
+          <span>04</span>
+          <h3>Positive-Sum Design</h3>
+          <p>Building copilots, reskilling pathways, and dignity-preserving systems.</p>
+        </article>
+        <article class="topic-card">
+          <span>05</span>
+          <h3>Societal Impact &amp; Safety</h3>
+          <p>Governance, inequality, oversight, institutional change, and systemic risk.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-ink" id="speakers">
+      <div class="shell">
+        <div class="section-heading light-heading">
+          <div>
+            <p class="eyebrow">Onsite in Phoenix</p>
+            <h2>Invited speakers</h2>
+          </div>
+          <p>The workshop is onsite in Phoenix. Kaidi Xu will deliver his invited talk remotely; all other invited speakers will present onsite.</p>
+        </div>
+
+        <div class="speaker-grid">
+          <article class="speaker-card">
+            <a class="speaker-image" href="https://explore.hireez.com/blog/author/steven-jiang" target="_blank" rel="noopener noreferrer">
+              <img src="assets/speakers/steven-jiang.jpg" alt="Portrait of Steven Jiang" width="200" height="200">
+            </a>
+            <div class="speaker-copy">
+              <span class="status"><i aria-hidden="true"></i> In person</span>
+              <h3>Steven Jiang</h3>
+              <p class="speaker-role">Co-founder &amp; CEO, hireEZ</p>
+              <p>Steven leads hireEZ, an AI-driven talent acquisition platform, and works toward a future where intelligent systems create faster, fairer connections between people and opportunity.</p>
+              <a class="text-link" href="https://explore.hireez.com/blog/author/steven-jiang" target="_blank" rel="noopener noreferrer">Official profile <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="speaker-card">
+            <a class="speaker-image" href="https://www.cse.cuhk.edu.hk/people/faculty/yu-cheng/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/speakers/yu-cheng.jpg" alt="Portrait of Yu Cheng" width="270" height="300">
+            </a>
+            <div class="speaker-copy">
+              <span class="status"><i aria-hidden="true"></i> In person</span>
+              <h3>Yu Cheng</h3>
+              <p class="speaker-role">Associate Professor, The Chinese University of Hong Kong</p>
+              <p>Yu researches efficient and sparse architectures, model compression, and multimodal learning, with experience translating foundation-model research into deployed AI systems.</p>
+              <a class="text-link" href="https://www.cse.cuhk.edu.hk/people/faculty/yu-cheng/" target="_blank" rel="noopener noreferrer">Official profile <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="speaker-card">
+            <a class="speaker-image" href="https://jingpingnie.com/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/speakers/jingping-nie.jpg" alt="Portrait of Jingping Nie" width="900" height="692">
+            </a>
+            <div class="speaker-copy">
+              <span class="status"><i aria-hidden="true"></i> In person</span>
+              <h3>Jingping Nie</h3>
+              <p class="speaker-role">Assistant Professor, UNC–Chapel Hill</p>
+              <p>Jingping directs UNC’s Networked Intelligence &amp; Cyber-Embedded Systems Lab. Her research spans human-centric wearable devices, embedded AI, cyber-physical systems, and AIoT platforms for health and well-being.</p>
+              <a class="text-link" href="https://jingpingnie.com/" target="_blank" rel="noopener noreferrer">Official profile <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="speaker-card">
+            <a class="speaker-image" href="https://kaidixu.com/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/speakers/kaidi-xu.jpg" alt="Portrait of Kaidi Xu" width="400" height="400">
+            </a>
+            <div class="speaker-copy">
+              <span class="status remote"><i aria-hidden="true"></i> Remote</span>
+              <h3>Kaidi Xu</h3>
+              <p class="speaker-role">Associate Professor, City University of Hong Kong</p>
+              <p>Kaidi researches trustworthy AI, including formal verification, adversarial robustness, uncertainty quantification, and reliable foundation models.</p>
+              <a class="text-link" href="https://kaidixu.com/" target="_blank" rel="noopener noreferrer">Official profile <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cfp">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Call for papers</p>
+            <h2>Contribute to the conversation.</h2>
+          </div>
+          <p>We welcome technical, empirical, and interdisciplinary work on AI’s changing relationship with labor and the design of positive-sum futures.</p>
+        </div>
+
+        <div class="track-grid single-track">
+          <article class="track-card featured">
+            <div class="track-top">
+              <span class="track-label">Full Paper</span>
+              <strong>10 pages</strong>
+            </div>
+            <h3>IEEE two-column conference format</h3>
+            <p>Papers may be up to 10 pages, including references, and must follow the IEEE Computer Society Proceedings Manuscript Formatting Guidelines.</p>
+          </article>
+        </div>
+
+        <div class="submission-grid">
+          <div class="submission-process">
+            <h3>Submission and review</h3>
+            <ol>
+              <li><span>01</span><div><strong>Prepare an anonymous manuscript</strong><p>Use the IEEE two-column conference format and stay within the 10-page limit, including references.</p></div></li>
+              <li><span>02</span><div><strong>Submit through CyberChair</strong><p>Create a new submission or revise an existing submission through the official workshop portal.</p></div></li>
+              <li><span>03</span><div><strong>Receive expert feedback</strong><p>Each submission will be reviewed by at least three reviewers, with conflicts checked and managed.</p></div></li>
+              <li><span>04</span><div><strong>Present accepted work</strong><p>Accepted papers will be presented onsite; selected papers may receive oral slots.</p></div></li>
+            </ol>
+          </div>
+          <div class="submission-note" role="note" aria-label="Submission portal status">
+            <p class="mini-label">Submission portal</p>
+            <h3>CyberChair</h3>
+            <p>Submit a full paper through the official IEEE BigData 2026 workshop portal.</p>
+            <a class="button button-primary" href="https://wi-lab.com/cyberchair/2026/bigdata26/scripts/submit.php?subarea=S45&amp;undisplay_detail=1&amp;wh=%2Fcyberchair%2F2026%2Fbigdata26%2Fscripts%2Fws_submit.php" target="_blank" rel="noopener noreferrer">Open submission portal</a>
+            <hr>
+            <p><strong>Best Student Paper Award</strong><br>Awarded to an outstanding student-led or student-co-led contribution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-mist" id="dates">
+      <div class="shell">
+        <div class="section-heading compact-heading">
+          <div>
+            <p class="eyebrow">Important dates</p>
+            <h2>Mark your calendar.</h2>
+          </div>
+          <p>The submission deadline is 11:59 p.m. Anywhere on Earth (AoE).</p>
+        </div>
+        <div class="date-list">
+          <div class="date-item"><span>01</span><p>Paper submission</p><strong>November 15, 2026</strong></div>
+          <div class="date-item"><span>02</span><p>Author notification</p><strong>November 25, 2026</strong></div>
+          <div class="date-item"><span>03</span><p>Camera-ready deadline</p><strong>November 26, 2026</strong></div>
+          <div class="date-item conference-date"><span>04</span><p>Workshop</p><strong>December 14, 2026 · Morning</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Half-day program</p>
+            <h2>A focused morning of ideas and exchange.</h2>
+          </div>
+          <p>The program runs from 8:30 a.m. to 12:30 p.m. Mountain Standard Time (MST).</p>
+        </div>
+        <div class="agenda" role="table" aria-label="Workshop program">
+          <div class="agenda-row agenda-head" role="row"><span role="columnheader">Time</span><span role="columnheader">Session</span><span role="columnheader">Details</span></div>
+          <div class="agenda-row" role="row"><time role="cell">8:30</time><strong role="cell">Welcome</strong><span role="cell">Opening remarks and workshop overview</span></div>
+          <div class="agenda-row highlight-row" role="row"><time role="cell">8:40</time><strong role="cell">Invited talk</strong><span role="cell">Yu Cheng · CUHK</span></div>
+          <div class="agenda-row highlight-row" role="row"><time role="cell">9:10</time><strong role="cell">Invited talk</strong><span role="cell">Jingping Nie · UNC–Chapel Hill</span></div>
+          <div class="agenda-row" role="row"><time role="cell">9:40</time><strong role="cell">Contributed talks</strong><span role="cell">Selected accepted papers</span></div>
+          <div class="agenda-row muted-row" role="row"><time role="cell">10:10</time><strong role="cell">Coffee break</strong><span role="cell">Refreshments and networking</span></div>
+          <div class="agenda-row highlight-row" role="row"><time role="cell">10:25</time><strong role="cell">Invited talk</strong><span role="cell">Steven Jiang · hireEZ</span></div>
+          <div class="agenda-row highlight-row" role="row"><time role="cell">10:55</time><strong role="cell">Remote invited talk</strong><span role="cell">Kaidi Xu · City University of Hong Kong</span></div>
+          <div class="agenda-row" role="row"><time role="cell">11:25</time><strong role="cell">Panel discussion</strong><span role="cell">Human labor vs. AI automation</span></div>
+          <div class="agenda-row" role="row"><time role="cell">11:55</time><strong role="cell">Poster session</strong><span role="cell">Accepted papers and networking</span></div>
+          <div class="agenda-row" role="row"><time role="cell">12:25</time><strong role="cell">Closing &amp; awards</strong><span role="cell">Key takeaways and Best Student Paper</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-ink" id="organizers">
+      <div class="shell">
+        <div class="section-heading light-heading">
+          <div>
+            <p class="eyebrow">Workshop team</p>
+            <h2>Bridging research, industry, and policy.</h2>
+          </div>
+          <p>Our organizers span computer science, communication, business, agriculture, and industry research.</p>
+        </div>
+
+        <article class="chair-card">
+          <img src="assets/organizers/tianlong_chen.jpg" alt="Tianlong Chen">
+          <div class="chair-copy">
+            <p class="mini-label">Workshop Chair</p>
+            <h3>Tianlong Chen</h3>
+            <p class="chair-role">Assistant Professor of Computer Science<br>University of North Carolina at Chapel Hill</p>
+            <p>Tianlong works on accurate, trustworthy, and efficient machine learning systems. He leads the workshop’s scientific program and organizing committee.</p>
+            <div class="chair-links">
+              <a href="https://tianlong-chen.github.io" target="_blank" rel="noopener noreferrer">Official profile <span aria-hidden="true">↗</span></a>
+              <a href="mailto:tianlong@cs.unc.edu">Primary contact</a>
+            </div>
+          </div>
+        </article>
+
+        <p class="mini-label committee-label">Organizing committee</p>
+        <div class="people-grid">
+          <article class="person"><img src="assets/organizers/JinhaoDuan.jpeg" alt="Jinhao Duan"><div><h3><a href="https://jinhaoduan.github.io/" target="_blank" rel="noopener noreferrer">Jinhao Duan</a></h3><p>UNC–Chapel Hill</p></div></article>
+          <article class="person"><img src="assets/organizers/xinwen.png" alt="Xinwen Zhang"><div><h3><a href="https://www.linkedin.com/in/xinwen-zhang-362799121/" target="_blank" rel="noopener noreferrer">Xinwen Zhang</a></h3><p>hireEZ</p></div></article>
+          <article class="person"><img src="assets/organizers/eva_zhao.jpg" alt="Xinyan Zhao"><div><h3><a href="http://xinyanzhao.org/" target="_blank" rel="noopener noreferrer">Xinyan Zhao</a></h3><p>UNC–Chapel Hill</p></div></article>
+          <article class="person"><img src="assets/organizers/wenwen.jpeg" alt="Wen Wen"><div><h3><a href="https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/profile/?username=ww6268" target="_blank" rel="noopener noreferrer">Wen Wen</a></h3><p>UT Austin</p></div></article>
+          <article class="person"><img src="assets/organizers/seancao.jpg" alt="Sean Cao"><div><h3><a href="https://sites.google.com/view/seancao/home" target="_blank" rel="noopener noreferrer">Sean Cao</a></h3><p>University of Maryland</p></div></article>
+          <article class="person"><img src="assets/organizers/lirong.jpg" alt="Lirong Xiang"><div><h3><a href="https://cals.cornell.edu/people/lirong-xiang" target="_blank" rel="noopener noreferrer">Lirong Xiang</a></h3><p>Cornell University</p></div></article>
+          <article class="person"><img src="assets/organizers/wenyue.png" alt="Wenyue Hua"><div><h3><a href="https://wenyueh.github.io/en/" target="_blank" rel="noopener noreferrer">Wenyue Hua</a></h3><p>Microsoft Research</p></div></article>
+          <article class="person"><img src="assets/organizers/gaowen-liu.jpeg" alt="Gaowen Liu"><div><h3><a href="https://research.cisco.com/people" target="_blank" rel="noopener noreferrer">Gaowen Liu</a></h3><p>Cisco Research</p></div></article>
+          <article class="person"><img src="assets/organizers/zt.png" alt="Zhen Tan"><div><h3><a href="https://zhen-tan-dmml.github.io/" target="_blank" rel="noopener noreferrer">Zhen Tan</a></h3><p>Stevens Institute of Technology</p></div></article>
+        </div>
+
+        <div class="student-organizers">
+          <p class="mini-label">Student organizers</p>
+          <div class="people-grid student-grid">
+            <article class="person"><img src="assets/organizers/Zhuoxuan_Zhang.jpeg" alt="Zhuoxuan Zhang"><div><h3><a href="https://zhuoxuan-zhang.github.io/" target="_blank" rel="noopener noreferrer">Zhuoxuan Zhang</a></h3><p>UNC–Chapel Hill</p></div></article>
+            <article class="person"><img src="assets/organizers/mz.jpg" alt="Mohan Zhang"><div><h3>Mohan Zhang</h3><p>UNC–Chapel Hill</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="shell contact-layout">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Questions about the workshop?</h2>
+          <p>For submissions, participation, accessibility, or program questions, contact the workshop team.</p>
+        </div>
+        <div class="contact-cards">
+          <a href="mailto:tianlong@cs.unc.edu"><span>Primary contact</span><strong>Tianlong Chen</strong><small>tianlong@cs.unc.edu</small></a>
+          <a href="mailto:jinhao@cs.unc.edu"><span>Workshop contact</span><strong>Jinhao Duan</strong><small>jinhao@cs.unc.edu</small></a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="wordmark footer-mark" href="#top"><span class="wordmark-mark" aria-hidden="true">A4W</span><span>AI4Workforce <strong>2026</strong></span></a>
+        <p>IEEE BigData 2026 · Phoenix, Arizona</p>
+      </div>
+      <p class="footer-note">Speaker photos are sourced from official hireEZ, CUHK, Jingping Nie, and Kaidi Xu profiles. Gaowen Liu’s photo is sourced from Cisco Research.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>
